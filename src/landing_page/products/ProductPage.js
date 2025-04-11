@@ -1,21 +1,22 @@
 import React from 'react';
 import Hero from './Hero';
-import Team from './Team';
-
+import LeftSection from './LeftSection';
+import RightSection from './RightSection';
 import NavBar from '../Navbar';
 import OpenAccount from '../OpenAccount';
 import Footer from '../Footer';
 
-function AboutPage() {
+function ProductPage() {
     return ( 
         <>
         <NavBar />
         <Hero />
-        <Team />
+        <LeftSection />
+        <RightSection />
         <OpenAccount />
         <Footer />
         </>
      );
 }
 
-export default AboutPage;
+export default ProductPage;
