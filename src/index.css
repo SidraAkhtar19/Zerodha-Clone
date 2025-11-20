@@ -44,3 +44,26 @@ code {
   text-decoration: none;
   color: #666;
 }
+
+#supportHero {
+  background-color: #387ed1;
+  color: white;
+}
+
+#supportWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 150px;
+}
+
+#supportHero input {
+  padding: 10px 40px;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+}
+
+#supportHero a {
+  color: white;
+}

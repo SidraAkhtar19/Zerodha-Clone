@@ -11,6 +11,8 @@ import Support from './landing_page/support/Support';
 import NavBar from './landing_page/Navbar';
 import Footer from './landing_page/Footer';
 
+import NotFound from './landing_page/NotFound';
+
 
 
 
@@ -22,11 +24,13 @@ root.render(
     <Routes>
 
       <Route path="/" element= { <HomePage />  } />
-      <Route path="/aboutpage" element= { <AboutPage />  } />
-      <Route path="/pricingpage" element= { <PricingPage />  } />
-      <Route path="/productpage" element= { <ProductPage /> } />
+      <Route path="/about" element= { <AboutPage />  } />
+      <Route path="/pricing" element= { <PricingPage />  } />
+      <Route path="/product" element= { <ProductPage /> } />
       <Route path="/signup" element= { <SignUp />  } />
       <Route path="/support" element= { <Support /> } /> 
+
+      <Route path="*" element= { <NotFound /> } /> 
 
     </Routes>
     <Footer/>
